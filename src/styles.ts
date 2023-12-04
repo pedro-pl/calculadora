@@ -29,6 +29,7 @@ export const ContainerVisor = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    user-select: none;
 
     svg{
         margin: 0 1rem;
@@ -49,6 +50,7 @@ export const ContainerButtons = styled.div`
     display: grid;
     justify-content: space-between;
     grid-template-columns: 24% 24% 24% 24%;
+    user-select: none;
     
     svg{
         color: #f1faee;
