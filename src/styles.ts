@@ -33,6 +33,7 @@ export const ContainerVisor = styled.div`
     svg{
         margin: 0 1rem;
         color: #f1faee;
+        cursor: pointer;
     }
 `
 
@@ -51,6 +52,7 @@ export const ContainerButtons = styled.div`
     
     svg{
         color: #f1faee;
+        cursor: pointer;
     }
 `
 
@@ -63,4 +65,5 @@ export const Button = styled.div`
     align-items: center;
     font-size: 2rem;
     color: #f1faee;
+    cursor: pointer;
 `
